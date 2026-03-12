@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>BundleDisplayName</key>
+	<string>MoodMac</string>
+	<key>BundleExecutable</key>
+	<string>$(EXECUTABLE_NAME)</string>
+	<key>BundleIdentifier</key>
+	<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+	<key>BundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>BundleName</key>
+	<string>$(PRODUCT_NAME)</string>
+	<key>BundlePackageType</key>
+	<string>$(PRODUCT_BUNDLE_PACKAGE_TYPE)</string>
+	<key>BundleShortVersionString</key>
+	<string>1.0</string>
+	<key>BundleVersion</key>
+	<string>1</string>
+	<key>MinimumSystemVersion</key>
+	<string>$(MACOSX_DEPLOYMENT_TARGET)</string>
+	<key>LSUIElement</key>
+	<true/>
+	<key>PrincipalClass</key>
+	<string>NSApplication</string>
+	<key>HighResolutionCapable</key>
+	<true/>
+	<key>AccessibilityUsageDescription</key>
+	<string>MoodMac monitors your keyboard and app usage to detect your current working mood and display it in the menu bar.</string>
+	<key>AppleEventsUsageDescription</key>
+	<string>MoodMac uses Apple Events to observe application activity.</string>
+	<key>NSAccessibilityUsageDescription</key>
+	<string>MoodMac monitors your keyboard and app usage to detect your current working mood and display it in the menu bar.</string>
+</dict>
+</plist>
