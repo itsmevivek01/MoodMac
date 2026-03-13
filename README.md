@@ -2,7 +2,7 @@
 
 A macOS menu bar app that watches your keyboard, mouse, and app-switching behaviour and predicts your current work mood in real time.
 
-![macOS](https://img.shields.io/badge/macOS-13.5%2B-blue) 
+**Requirements:** ![macOS](https://img.shields.io/badge/macOS-13.5%2B-blue) 
 
 ---
 
@@ -23,18 +23,12 @@ The mood shows as an animated brain icon in your menu bar, updating every few se
 - **Rest** — No activity for a time. 
 
 
-## Requirements
-
-- macOS 12 Monterey or later
-- Xcode 15+
-- **Accessibility permission** — required for keyboard monitoring across all apps
-
 ## Installation
 
-1. Clone or download the repo
-2. Open `MoodMac.xcodeproj` in Xcode
-3. Set your signing team under Signing & Capabilities
-4. Hit **⌘R** to build and run
-5. When prompted, grant Accessibility access — **System Settings → Privacy & Security → Accessibility → enable MoodMac**
+1. Download and open the .dmg file.
+2. Drag `MoodMac.app` into applications folder.
+3. On first launch, macOS will warn about an “unidentified developer.”
+4. Go to settings → Privacy&Security → Scroll down to Security section and click open anyway.
+5. Now open the app again, grant accessibility permissions when asked.
 
-> Without Accessibility, typing won't be detected in other apps. Mouse and app switching signals still work fine without it.
+> Without Accessibility, typing won't be detected. Mouse and app switching signals still work fine without it.
